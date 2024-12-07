@@ -111,11 +111,11 @@ Current Deployment ID: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### 2.展示数据
 
-- 加入id为`page_pv` 或 `page_uv`的标签，即可显示 `访问人次(pv)` 或 `访问人数(uv)`
+- 加入id为`page_pv` 或 `page_uv`的标签，即可显示 `访问人次(pv)` 或 `访问人数(uv)` 配合我修改过的index.js使用
 ```
-本页访问人次:<span id="page_pv"></span>
+本页访问人次:<span id="page_pv"><span id="loading-message" style="display: inline;">...</span></span>
 
-本页访问人数:<span id="page_uv"></span>
+本页访问人数:<span id="page_uv"><span id="loading-message" style="display: inline;">...</span></span>
 ```
 - 可以编辑脚本参数，调整标签id
 ```
