@@ -121,9 +121,9 @@ Add the following `<script>...</script>` segment before the closing `</body>` ta
 - Add tags with the ID `page_pv` or `page_uv` to show `Page Views (pv)` or `Unique Visitors (uv)` respectively.
 
 ```html
-Page Views on this page:<span id="page_pv"></span>
+Page Views on this page:<span id="page_pv"><span id="loading-message" style="display: inline;">...</span></span>
 
-Unique Visitors on this page:<span id="page_uv"></span>
+Unique Visitors on this page:<span id="page_uv"><span id="loading-message" style="display: inline;">...</span></span>
 ```
 
 - You can edit the script parameters to adjust the tag IDs.
